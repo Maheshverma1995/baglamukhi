@@ -9,6 +9,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import NavHeader from './component/NavHeader';
 import Home from './component/Home';
 import Footer from './component/Footer';
+import Pujavidhi from './component/Pujavidhi';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -18,6 +19,7 @@ root.render(
     <NavBar/>
     <Routes>
       <Route path='' element={<Home/>}></Route>
+      <Route path='pujavidhi' element={<Pujavidhi/>}></Route>
     </Routes>
     <Footer/>
     </BrowserRouter>

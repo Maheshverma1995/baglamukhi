@@ -1,45 +1,69 @@
-import React from 'react'
+import React, { useState } from 'react';
 import { Link } from 'react-scroll';
+import { NavLink } from 'react-router-dom';
 
 const NavBar = () => {
-    return (
-        <div className='container-fluid'> 
-        <div className='row'>
-          
-          <nav className="navbar navbar-expand-lg bg">
-                <div className="container">
-                    <Link className="navbar-brand" to="/">बगलामुखी माता</Link>
-                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span className="navbar-toggler-icon"></span>
-                    </button>
-                    <div className="collapse navbar-collapse" id="navbarNav">
-                        <ul className="navbar-nav">
-                            <li className="nav-item">
-                            <Link to="home" smooth={true} duration={500}>होम</Link>
-                            </li>
-                            <li className="nav-item">
-                            <Link to="home" smooth={true} duration={500}>सक्षिप्त विवरण</Link>
-                            </li>
-                            <li className="nav-item">
-                            <Link to="home" smooth={true} duration={500}>बगलामुखी पूजा</Link>
-                            </li>
-                            <li className="nav-item">
-                            <Link to="home" smooth={true} duration={500}>गैलरी</Link>
-                            </li>
-                            <li className="nav-item">
-                            <Link to="home" smooth={true} duration={500}>वीडियो</Link>
-                            </li>
-                            <li className="nav-item">
-                            <Link to="home" smooth={true} duration={500}>न्यूज़</Link>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-          </div>
+  const [isNavCollapsed, setIsNavCollapsed] = useState(true);
+
+  const handleNavCollapse = () => {
+    setIsNavCollapsed(!isNavCollapsed);
+  };
+
+  const closeNav = () => {
+    setIsNavCollapsed(true);
+  };
+
+  return (
+    <nav className="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+      <div className="container">
+        <NavLink className="navbar-brand" to="/" onClick={closeNav}>
+          बगलामुखी माता
+        </NavLink>
+        <button
+          className="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded={!isNavCollapsed ? true : false}
+          aria-label="Toggle navigation"
+          onClick={handleNavCollapse}
+        >
+          <span className="navbar-toggler-icon"></span>
+        </button>
+        <div className={`${isNavCollapsed ? 'collapse' : ''} navbar-collapse`} id="navbarNav">
+          <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+            <li className="nav-item">
+              <NavLink
+                className="nav-link"
+                to=""
+                smooth={true}
+                duration={500}
+                onClick={closeNav}
+              >
+                होम
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="about" smooth={true} duration={500} onClick={closeNav}>सक्षिप्त विवरण</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="puja" smooth={true} duration={500} onClick={closeNav}>बगलामुखी पूजा</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="gallery" smooth={true} duration={500} onClick={closeNav}>गैलरी</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="video" smooth={true} duration={500} onClick={closeNav}>वीडियो</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="news" smooth={true} duration={500} onClick={closeNav}>न्यूज़</Link>
+            </li>
+          </ul>
         </div>
-        
-    )
+      </div>
+    </nav>
+  );
 }
 
-export default NavBar
+export default NavBar;

@@ -12,16 +12,26 @@ const Home = () => {
     <div className='bg-body'>
       <div className='container-fluid'>
         <div className='row'>
-        <Slider/>
-      <Description></Description>
-      <DescriptionCard/>
-      <BagalaMukhiPooja></BagalaMukhiPooja>
-      <Gallery></Gallery>
-      <VideoGallery/>
-      <News/>
+          <Slider />
+          <div id="about" className="section">
+          <Description></Description>
+            <DescriptionCard />
+          </div>
+          <div id="puja" className="section">
+            <BagalaMukhiPooja></BagalaMukhiPooja>
+          </div>
+          <div id="gallery" className="section">
+            <Gallery></Gallery>
+          </div>
+          <div id="video" className="section">
+            <VideoGallery />
+          </div>
+          <div id="news" className="section">
+            <News />
+          </div>
         </div>
       </div>
-      
+
     </div>
   )
 }
