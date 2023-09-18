@@ -1,18 +1,22 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
+
 const NavHeader = () => {
     return (
-        <div className='bg-body-tertiary'>
+        <div className='bg container-fluid'>
+            <div className='row'>
+            <div className='col'>
             <nav className="navbar ">
                 <div className="container">
-                    <Link className="navbar-brand">Navbar</Link>
-                    <form className="d-flex" role="search">
-                        <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-                        <button className="btn btn-outline-success" type="submit">Search</button>
-                    </form>
+                    <div className='row'>
+                    <Link className="navbar-brand" to="/"> <h1 id='header-h1'>श्री बगलामुखी पीतांबरा सिद्ध पीठ जबलपुर</h1></Link>                     
+                    </div>
+
                 </div>
             </nav>
+            </div>
+            </div>
         </div>
     )
 }
