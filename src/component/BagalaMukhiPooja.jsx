@@ -26,7 +26,7 @@ const BagalaMukhiPooja = () => {
               <div class="card-body">
                 <h5 class="card-title fs-5">कानूनी मामलों के लिए</h5>
                 <p class="card-text fs-6 mt-4">क़ानूनी विवाद या अदालती मामले एक दीर्घकालिक प्रक्रिया है जो इंसान के जीवन में तनाव, धन हानि, समय और शत्रुता को पैदा करता है। </p>
-                <Link to="#" class="btn btn-primary w-50 position-absolute mb-3  ms-5 bottom-0 start-25">और पढ़ें</Link>
+                <Link to="legal" class="btn btn-primary w-50 position-absolute mb-3  ms-5 bottom-0 start-25">और पढ़ें</Link>
               </div>
             </div>
           </div>
@@ -36,7 +36,7 @@ const BagalaMukhiPooja = () => {
               <div class="card-body">
                 <h5 class="card-title fs-5">नौकरी संबंधी समस्याओं</h5>
                 <p class="card-text fs-6 mt-4">करियर प्रत्येक व्यक्ति के जीवन की आधारशिला होती है जिस पर उसका सामाजिक, आर्थिक व पारिवारिक जीवन समेत भविष्य और वर्तमान भी आश्रित होता है। </p>
-                <Link to="#" class="btn btn-primary w-50 position-absolute mb-3  ms-5 bottom-0 start-25">और पढ़ें</Link>
+                <Link to="careerpage" class="btn btn-primary w-50 position-absolute mb-3  ms-5 bottom-0 start-25">और पढ़ें</Link>
               </div>
             </div>
           </div>
@@ -47,7 +47,7 @@ const BagalaMukhiPooja = () => {
                 <h5 class="card-title fs-5">जीवन में समृद्धि और शांति</h5>
                 <p class="card-text fs-6 mt-4">पीताम्बरा बगलामुखी माता की पूजा उचित विधि-विधान से करने से व्यक्ति के जीवन में सकारात्मकता और समृद्धि आती है,
           जो संतोष और बहुतायत की भावना प्रदान करती है।</p>
-                <Link to="#" class="btn btn-primary w-50 position-absolute mb-3  ms-5 bottom-0 start-25">और पढ़ें</Link>
+                <Link to="life" class="btn btn-primary w-50 position-absolute mb-3  ms-5 bottom-0 start-25">और पढ़ें</Link>
               </div>
             </div>
           </div>
@@ -59,7 +59,7 @@ const BagalaMukhiPooja = () => {
               <div class="card-body">
                 <h5 class="card-title fs-5">संपत्ति विवाद के लिए </h5>
                 <p class="card-text fs-6 mt-4">वर्तमान समय में संपत्ति से जुडे विवाद, चिंताजनक तथा खर्चीले होने के साथ कडवाहट, दुश्मनी और संभ्रम को भी जन्म देते है।</p>
-                <Link to="#" class="btn btn-primary w-50 position-absolute mb-3  ms-5 bottom-0 start-25">और पढ़ें</Link>
+                <Link to="property" class="btn btn-primary w-50 position-absolute mb-3  ms-5 bottom-0 start-25">और पढ़ें</Link>
               </div>
             </div>
           </div>
@@ -69,7 +69,7 @@ const BagalaMukhiPooja = () => {
               <div class="card-body">
                 <h5 class="card-title fs-5">संतान प्राप्ति के लिए </h5>
                 <p class="card-text fs-6 mt-4">तलाक होने के पश्चात पति पत्नी के बीच बच्चों का हक, उनका पालन−पोषण, उनकी जिम्मेदारी एक गंभीर समस्या का रूप धारण कर लेती है।</p>
-                <Link to="#" class="btn btn-primary w-50 position-absolute mb-3  ms-5 bottom-0 start-25">और पढ़ें</Link>
+                <Link to="child" class="btn btn-primary w-50 position-absolute mb-3  ms-5 bottom-0 start-25">और पढ़ें</Link>
               </div>
             </div>
           </div>
@@ -79,7 +79,7 @@ const BagalaMukhiPooja = () => {
               <div class="card-body">
                 <h5 class="card-title fs-5">वित्तीय हानि से उबरने के लिए</h5>
                 <p class="card-text fs-6 mt-4">धन जीवन की आधारभूत आवश्यकता है, जिसके बिना दैनिक जीवन की आवश्यकताओं को पूरा करना संभव नहीं है। धन द्वारा सुखी, स्वस्थ और शांतिपूर्ण जीवन की प्राप्ति होती है।.</p>
-                <Link to="#" class="btn btn-primary w-50 position-absolute mb-3  ms-5 bottom-0 start-25" >और पढ़ें</Link>
+                <Link to="loss" class="btn btn-primary w-50 position-absolute mb-3  ms-5 bottom-0 start-25" >और पढ़ें</Link>
               </div>
             </div>
           </div>
@@ -89,7 +89,7 @@ const BagalaMukhiPooja = () => {
               <div class="card-body">
                 <h5 class="card-title fs-5">कोर्ट केस जीतने के लिए</h5>
                 <p class="card-text fs-6 mt-4">कोर्ट-कचहरी के चक्कर या क़ानूनी मामले अत्यंत कष्टदायी होते है जो व्यक्ति के जीवन में आर्थिक संकट, चिंता, शत्रुता एवं स्वास्थ्य आदि समस्याओं का कारण बनते है।</p>
-                <Link to="#" class="btn btn-primary w-50 position-absolute mb-3  ms-5 bottom-0 start-25">और पढ़ें</Link>
+                <Link to="court" class="btn btn-primary w-50 position-absolute mb-3  ms-5 bottom-0 start-25">और पढ़ें</Link>
               </div>
             </div>
           </div>
