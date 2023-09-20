@@ -2,7 +2,7 @@ import React from 'react'
 
 const CareerPage = () => {
   return (
-    <div className='container-fluid'>
+    <div className='container-fluid bg-body'>
       <div className='row'>
         <div className='col-12'>
           <img className='img-fluid mb-4 mt-4' style={{ height: '400px', width: '100%' }} src="./Image/Puja-for-Success-in-Career.jpg" alt="" />

@@ -3,7 +3,7 @@ import React from 'react'
 
 const Pujavidhi = () => {
     return (
-        <div className='container-fluid'>
+        <div className='container-fluid bg-body'>
             <div className='row mt-4 mb-3'>
             
             <img className='img-fluid' src="./Image/baglamukhi-puja-vidhi.jpeg" alt="" />

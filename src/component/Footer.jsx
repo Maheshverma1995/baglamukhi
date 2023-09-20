@@ -5,8 +5,8 @@ import Iframe from 'react-iframe'
 
 const Footer = () => {
   return (
-    <div className='container-fluid mt-2 mb-3'>
-      <div className='row d-flex justify-content-center mt-4'>
+    <div className='container-fluid mt-2 mb-3 bg-body'>
+      <div className='row d-flex justify-content-center  mt-4'>
         <img className='w-25' src="./Image/img4.png" alt="" />
       </div>
       <div className='container'>
@@ -17,16 +17,16 @@ const Footer = () => {
           <div className='col-md-4 mt-2 '>
             <h1 className='fs-1 text-center mt-5'><span className='p-2' style={ {borderBottom:'4px solid red'}}>संपर्क सूत्र</span></h1>
             <div className='d-flex mt-4 p-1'>
-              <i className='ps-5 pe-3 col-6'><FaLocationDot/></i>
+              <i className='ps-5 pe-3'><FaLocationDot/></i>
               <p>बगलामुखी माता पीताम्बरा पीठ जबलपुर,मध्य प्रदेश</p>
             </div>
             <div className='d-flex '>
               <i className='ps-5 pe-3'><FaPhoneAlt/></i>
-              <p>9910091121</p>
+              <p>9425866655</p>
             </div>
             <div className='d-flex'>
               <i className='ps-5 pe-3'><FaEnvelope/></i>
-              <p>shribaglamukhi@gmail.com</p>
+              <p>maabagalamubki@gmail.com</p>
             </div>
           </div>
           <div className='col-md-4'>
@@ -44,9 +44,9 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className='row'>
+      <div className='row bg'>
         
-        <h3 className='p-4 text-center'>Copyright © All rights reserved | Pitambara pith</h3>
+        <h3 className='p-4 text-center text-white'>Copyright © All rights reserved | Pitambara pith</h3>
         
       </div>
     </div>

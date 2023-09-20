@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-scroll';
 import { NavLink } from 'react-router-dom';
 
+
 const NavBar = () => {
   const [isNavCollapsed, setIsNavCollapsed] = useState(true);
 
@@ -14,9 +15,10 @@ const NavBar = () => {
   };
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <nav className="navbar navbar-expand-lg navbar-light bg-body sticky-top">
+      <audio autoPlay loop muted  src="./Image/बगलामुखी कवच1.mp3"></audio>
       <div className="container">
-        <NavLink className="navbar-brand" to="/" onClick={closeNav}>
+        <NavLink className="navbar-brand text-white" to="/" onClick={closeNav}>
           बगलामुखी माता
         </NavLink>
         <button
@@ -35,7 +37,7 @@ const NavBar = () => {
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
               <NavLink
-                className="nav-link"
+                className="nav-link text-white"
                 to=""
                 smooth={true}
                 duration={500}
@@ -45,23 +47,24 @@ const NavBar = () => {
               </NavLink>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="about" smooth={true} duration={500} onClick={closeNav}>सक्षिप्त विवरण</Link>
+              <Link className="nav-link text-white" to="about" smooth={true} duration={500} onClick={closeNav}>सक्षिप्त विवरण</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="puja" smooth={true} duration={500} onClick={closeNav}>बगलामुखी पूजा</Link>
+              <Link className="nav-link text-white" to="puja" smooth={true} duration={500} onClick={closeNav}>बगलामुखी पूजा</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="gallery" smooth={true} duration={500} onClick={closeNav}>गैलरी</Link>
+              <Link className="nav-link text-white" to="gallery" smooth={true} duration={500} onClick={closeNav}>गैलरी</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="video" smooth={true} duration={500} onClick={closeNav}>वीडियो</Link>
+              <Link className="nav-link text-white" to="video" smooth={true} duration={500} onClick={closeNav}>वीडियो</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="news" smooth={true} duration={500} onClick={closeNav}>न्यूज़</Link>
+              <Link className="nav-link text-white" to="news" smooth={true} duration={500} onClick={closeNav}>न्यूज़</Link>
             </li>
           </ul>
         </div>
       </div>
+      
     </nav>
   );
 }

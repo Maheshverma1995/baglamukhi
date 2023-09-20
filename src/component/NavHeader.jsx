@@ -10,7 +10,7 @@ const NavHeader = () => {
             <nav className="navbar ">
                 <div className="container">
                     <div className='row'>
-                    <Link className="navbar-brand" to="/"> <h1 id='header-h1'>श्री बगलामुखी पीतांबरा सिद्ध पीठ जबलपुर</h1></Link>                     
+                    <Link className="navbar-brand text-white" to="/"> <h1 id='header-h1'>श्री बगलामुखी पीतांबरा सिद्ध पीठ जबलपुर</h1></Link>                     
                     </div>
 
                 </div>

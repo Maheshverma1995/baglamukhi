@@ -17,10 +17,12 @@ import Child from './component/Child'
 import Court from './component/Court'
 import CareerPage from './component/CareerPage';
 import Loss from './component/Loss'
+// import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    
     <BrowserRouter>
     <NavHeader></NavHeader>
     <NavBar/>
@@ -36,6 +38,7 @@ root.render(
       <Route path='court' element={<Court/>}></Route>
     </Routes>
     <Footer/>
+    {/* <App/> */}
     </BrowserRouter>
   </React.StrictMode>
 );

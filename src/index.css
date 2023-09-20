@@ -1,11 +1,20 @@
+*
+{
+  text-align: justify;
+  color: white;
+}
 
 .bg
 {
-  background-image: linear-gradient(red ,yellow );
+  background-image: linear-gradient(#5a143a ,#8a4e53 );
 }
 .bg-body
 {
-  background-image: linear-gradient(white ,pink);
+  background-image: linear-gradient(#95373b ,#6a0a28 );
+  color: white;
+}
+.box-shadow {
+  box-shadow: 5px 10px 7px #fffafa;
 }
 #header-h1
 {

@@ -3,9 +3,9 @@ import React from 'react'
 const Description = () => {
   return (
     <div>
-      <div className='container mt-5 mb-5'>
-      <h1 className='text-center fs-1'>
-            सक्षिप्त विवरण
+      <div className='container mt-5 mb-5 bg-body'>
+      <h1 className='text-center fs-1 '>
+           <span style={{borderBottom:'2px solid red'}}> सक्षिप्त विवरण</span>
             </h1>
         <div className='row mt-5'>
             
@@ -31,7 +31,7 @@ const Description = () => {
       </p>
             </div>
             <div className='col-lg-6'>
-              <img className='img-fluid' src="./Image/6.jpg" alt="" />
+              <img className='img-fluid box-shadow' src="./Image/6.jpg" alt="" />
             </div>
         </div>
       </div>

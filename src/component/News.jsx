@@ -4,9 +4,9 @@ import './News.css'
 const News = () => {
   return (
     <div>
-      <div className='container mt-5 mb-5'>
+      <div className='container bg-body mt-5 mb-5'>
       <h1 className='text-center fs-1'>
-            सक्षिप्त विवरण
+      <span className='pb-2' style={{borderBottom:'2px solid red'}}>न्यूज़</span>
           </h1>
         <div className='row mt-5'>
           

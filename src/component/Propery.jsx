@@ -4,7 +4,7 @@ import React from 'react'
 const Propery = () => {
   return (
     <div>
-      <div className='container-fluid'>
+      <div className='container-fluid bg-body mt-5 mb-5'>
         <div className='row'>
           <div className='col-12'>
             <img className='img-fluid mb-4 mt-4' style={{ height: '400px', width: '100%' }} src="./Image/3.jpg" alt="" />
