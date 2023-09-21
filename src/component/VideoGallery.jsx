@@ -14,7 +14,7 @@ const VideoGallery = () => {
             
             
         </div>
-        <div className='row mt-2 text-center'>
+        {/* <div className='row mt-2 text-center'>
           <div className='col-lg-4'>
             <video controls muted  className='img-fluid' src="https://www.youtube.com/watch?v=MTkRipYZz_Q" alt="" />
           </div>
@@ -25,7 +25,7 @@ const VideoGallery = () => {
             <video controls muted  className='img-fluid' src="https://www.youtube.com/watch?v=3Xf3lGP6JlE" alt="" />
           </div>
           
-        </div>
+        </div> */}
         <div className='row mt-4 mb-5'>
         <div className='col-xs-12 text-center'>
         <Link to="https://www.youtube.com/@chaitanyanandji"><button type="button" class="btn btn-danger">वीडियो</button></Link>

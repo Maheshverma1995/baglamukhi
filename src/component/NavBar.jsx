@@ -16,13 +16,12 @@ const NavBar = () => {
 
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-body sticky-top">
-      <audio autoPlay loop muted  src="./Image/बगलामुखी कवच1.mp3"></audio>
       <div className="container">
         <NavLink className="navbar-brand text-white" to="/" onClick={closeNav}>
           बगलामुखी माता
         </NavLink>
         <button
-          className="navbar-toggler"
+          className="navbar-toggler text-white"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarNav"

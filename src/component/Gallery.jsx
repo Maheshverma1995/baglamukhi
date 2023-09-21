@@ -1,9 +1,10 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Gallery = () => {
   return (
     <div>
-      <div className='container mb-5 bg-body '>
+      <div className='container mb-5  '>
       
       <h1 className='text-center fs-1'>
       <span className='pb-2' style={{borderBottom:'2px solid red'}}>गैलरी</span>
@@ -18,19 +19,19 @@ const Gallery = () => {
         </div>
         <div className='row mt-2'>
           <div className='col-lg-4'>
-            <img className='img-fluid' src="./Image/4.jpg" alt="" />
+            <img className='img-fluid' src="./Image/1.png" alt="" />
           </div>
           <div className='col-lg-4'>
-            <img className='img-fluid' src="./Image/4.jpg" alt="" />
+            <img className='img-fluid' src="./Image/2-.png" alt="" />
           </div>
           <div className='col-lg-4'>
-            <img className='img-fluid' src="./Image/4.jpg" alt="" />
+            <img className='img-fluid' src="./Image/3.png" alt="" />
           </div>
           
         </div>
         <div className='row mt-4 mb-5'>
         <div className='col-xs-12 text-center'>
-        <button type="button" class="btn btn-danger">गैलरी</button>
+        <Link to="moregallery"><button type="button" class="btn btn-danger">गैलरी</button></Link>
         </div>
         </div>
       </div>

@@ -12,7 +12,7 @@ const BagalaMukhiPooja = () => {
           
           <div className='col-lg-3 mt-2 mb-3'>
             <div class="card" style={{height:'450px'}}>
-              <img className='img-fluid .box-shadow' style={{height:'200px'}} src="./Image/Sun.jpg" class="card-img-top" alt="..." />
+              <img className='img-fluid .box-shadow' style={{height:'200px'}} src="./Image/2.jpg" class="card-img-top" alt="..." />
               <div class="card-body bg-body box-shadow">
                 <h5 class="card-title text-white bg p-2 fs-5">बगलामुखी पूजा विधि</h5>
                 <p class="card-text fs-6 mt-1">माँ बगलामुखी को दस महाविद्याओं में से सबसे शक्तिशाली महाविद्या माना गया हैं। इनको दस महाविद्या में से आंठवा स्थान प्राप्त हैं।</p>

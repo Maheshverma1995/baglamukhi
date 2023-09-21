@@ -45,7 +45,7 @@ const Footer = () => {
         </div>
       </div>
       <div className='row bg'>
-        
+        <audio autoPlay  loop src="./Image/बगलामुखी कवच1.mp3"></audio>
         <h3 className='p-4 text-center text-white'>Copyright © All rights reserved | Pitambara pith</h3>
         
       </div>

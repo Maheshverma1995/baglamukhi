@@ -17,6 +17,7 @@ import Child from './component/Child'
 import Court from './component/Court'
 import CareerPage from './component/CareerPage';
 import Loss from './component/Loss'
+import MroeGallery from './component/MroeGallery';
 // import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -36,9 +37,9 @@ root.render(
       <Route path='child' element={<Child/>}></Route>
       <Route path='loss' element={<Loss/>}></Route>
       <Route path='court' element={<Court/>}></Route>
+      <Route path='moregallery' element={<MroeGallery/>}></Route>
     </Routes>
     <Footer/>
-    {/* <App/> */}
     </BrowserRouter>
   </React.StrictMode>
 );
