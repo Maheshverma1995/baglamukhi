@@ -6,8 +6,10 @@ const Slider = () => {
     <div>
       <div className='container-fluid'>
         <div className='row'>
-          <Marquee>
-            
+          <Marquee className='p-2 mt-2'>
+          शारदीय नवरात्रि 2023 तिथि (Shardiya Navratri 2023 Start Date) हिंदू पंचांग के अनुसार, आश्विन शुक्ल पक्ष की प्रतिपदा तिथि 14 अक्टूबर रात्रि 11 बजकर 24 मिनट से शुरू होगी और 16 अक्टूबर मध्य रात्रि 12 बजकर 32 मिनट पर समाप्त हो जाएगी। ऐसे में शारदीय नवरात्रि पर्व का शुभारंभ 15 अक्टूबर 2023, रविवार के दिन होगा। नवरात्रि में मां बगलामुखी माता की अखंड ज्योति जलाने के लिए संपर्क करें 
+मोबाइल नंबर :- <span className='fs-4 m-3'> 9425866655</span> ,
+ईमेल आईडी:- <span className='fs-4 m-3'> maabagalamubki@gmail.com</span>
           </Marquee>
         </div>
       </div>

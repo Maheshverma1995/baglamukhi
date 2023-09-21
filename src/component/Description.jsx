@@ -3,7 +3,7 @@ import React from 'react'
 const Description = () => {
   return (
     <div>
-      <div className='container mt-5 mb-5 bg-body'>
+      <div className='container mt-5 mb-5 '>
       <h1 className='text-center fs-1 '>
            <span style={{borderBottom:'2px solid red'}}> सक्षिप्त विवरण</span>
             </h1>
